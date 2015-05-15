@@ -2094,7 +2094,7 @@
 	 * @return {jQuery}
 	 */
 	$.timepicker.datetimeRange = function (startTime, endTime, options) {
-		$.timepicker.handleRange('datetimepicker', startTime, endTime, options);
+		return $.timepicker.handleRange('datetimepicker', startTime, endTime, options);
 	};
 
 	/**
@@ -2107,7 +2107,7 @@
 	 * @return {jQuery}
 	 */
 	$.timepicker.dateRange = function (startTime, endTime, options) {
-		$.timepicker.handleRange('datepicker', startTime, endTime, options);
+		return $.timepicker.handleRange('datepicker', startTime, endTime, options);
 	};
 
 	/**
